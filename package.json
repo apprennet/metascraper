@@ -5,6 +5,9 @@
   "repository": "git://github.com/ianstormtaylor/metascraper.git",
   "license": "MIT",
   "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "npm-run-all build:dist build:tests",
     "build:tests": "browserify ./test/browser.js --transform babelify --outfile ./test/support/build.js",
